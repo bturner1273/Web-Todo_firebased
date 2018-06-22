@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC8fIckvVAjoA76kO-_rqBy57YIgod-C6w",
+        authDomain: "todo-fffae.firebaseapp.com",
+        databaseURL: "https://todo-fffae.firebaseio.com",
+        projectId: "todo-fffae",
+        storageBucket: "todo-fffae.appspot.com",
+        messagingSenderId: "99845311111"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/to_do_firebase.css">
+    <script type="text/javascript" src="assets/js/to_do_firebase.js"></script>
+  </head>
+  <body>
+    <div class="lines"></div>
+    <ul class="list">
+    </ul>
+    <center>
+      <input type="text" class="to_do_input"><btn class="add_todo_btn">Add Todo</btn></input>
+    </center>
+  </body>
+</html>
