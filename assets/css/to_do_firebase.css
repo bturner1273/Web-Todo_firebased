@@ -14,6 +14,13 @@ body {
   border: 1px solid #dedede;
 }
 
+.crossed_out {
+  text-decoration: line-through;
+  text-decoration-color: rgb(255,0,0);
+  font-weight: lighter;
+  background-color: rgb(233, 162, 162);
+}
+
 .list li {
   list-style: none;
   border-bottom: 1px dotted #ccc;
