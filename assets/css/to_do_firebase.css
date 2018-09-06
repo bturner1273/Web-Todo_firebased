@@ -1,7 +1,7 @@
 body {
   background-color: #f5f5f5;
-  width: 600px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 0;
   padding: 0;
 }
 
@@ -37,10 +37,7 @@ body {
   font-family:sans-serif;
   font-size: 12px;
   font-weight: bold;
-  float: right;
-  position: relative;
-  top: -50px;
-  right: -2px;
+  float:none;
 }
 
 .add_todo_btn:hover {
